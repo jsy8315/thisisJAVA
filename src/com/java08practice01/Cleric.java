@@ -28,6 +28,8 @@ public class Cleric {
         
     }
     
+    
+    
     void selfAid() {
         this.mp -= 5; 
         this.hp = maxHp;

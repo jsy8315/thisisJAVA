@@ -28,8 +28,8 @@ public class Hero {
         this.hp = 100;
     }
     
-    void attack() {}
-    void run() {
+    public void attack() {}
+    public void run() {
         System.out.println(this.name + "는 도망쳤다!");
         System.out.println("GAME OVER");
         System.out.println("최종 HP는" + this.hp + " 입니다");
