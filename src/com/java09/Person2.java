@@ -17,8 +17,8 @@ public class Person2 {
     }
     
     public static void main(String[] args) {
-        Map<String, Integer>personMap = new HashMap<String, Integer>
-        for (Person2 person : personList) {
+        Map<String, Integer>personMap = new HashMap<String, Integer>();
+        for (Person2 person : personMap) {
             System.out.println(person.getName());
         }
     }

@@ -4,18 +4,17 @@ public class Main {
 
     public static void main(String[] args) {
         // 기본 생성자
-        Hero hero1 = new Hero();
-        Hero hero2 = new Hero("스랄");
-        Hero.MONEY = 100;
-        System.out.println(hero2);
+        /*
+         * Hero hero1 = new Hero(); //Hero hero2 = new Hero("스랄"); Hero.MONEY = 100;
+         * System.out.println(hero2);
+         * 
+         * System.out.println(Hero.MONEY); System.out.println(hero1.MONEY);
+         * System.out.println(hero2.MONEY);
+         * 
+         * hero1.MONEY = 300; System.out.println(hero1.MONEY); System.out.println(hero2.MONEY);
+         */
         
-        System.out.println(Hero.MONEY);
-        System.out.println(hero1.MONEY);
-        System.out.println(hero2.MONEY);
-        
-        hero1.MONEY = 300;
-        System.out.println(hero1.MONEY);
-        System.out.println(hero2.MONEY);
+        SuperHero superHero = new SuperHero();
         /*
          * Hero hero1 = new Hero(); hero1.name = "스랄"; hero1.hp = 100;
          * 
@@ -27,6 +26,7 @@ public class Main {
          * 
          * wizard.heal(hero1); wizard.heal(hero2); wizard.heal(hero2);
          */
+        
     }
 
 }

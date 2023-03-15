@@ -21,9 +21,10 @@ public class Hero {
         this.name = "김영웅";
     }
     // 생성자 오버로드
-    Hero(String name) {
+    Hero(String name, int hp) {
         this.hp = 100;
         this.name = name;   // 인수 값으로 name 필드 초기화
+        System.out.println("Hero생성자");
     }
     
     void attack() {

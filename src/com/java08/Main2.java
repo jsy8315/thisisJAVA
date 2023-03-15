@@ -1,5 +1,7 @@
 package com.java08;
 
+import com.java09.Kinoko;
+
 public class Main2 {
 
     public static void main(String[] args) {
